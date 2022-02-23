@@ -3,7 +3,6 @@
 <%
 	//한글 깨지지 않도록
 	request.setCharacterEncoding("utf-8");
-
 	//폼 전송되는 파라미터 추출
 	String msg=request.getParameter("msg");
 	//콘솔에 출력해 보기
